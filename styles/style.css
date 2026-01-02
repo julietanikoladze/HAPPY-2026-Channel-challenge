@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0f2726, #432037, #2c5364);
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: radial-gradient(circle, #00eeff, #eeff00);
+  color: #111;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.349);
+  border-radius: 16px;
+}
+
+h2 {
+  color: rgb(255, 0, 21);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+}
